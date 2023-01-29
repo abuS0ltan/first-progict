@@ -1,0 +1,134 @@
+/* // Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... } */
+@media (max-width: 576px) {
+    .container{
+        width: 90%;
+        margin: auto;
+    
+    }
+    /* start navbar */
+.navbar{
+    position: static;
+    text-align: center;
+    background-color: white;
+    padding-bottom: 20px;
+}
+.navbar-logo{
+    display: none;
+}
+
+.navbar-list{
+    float: non;
+    margin: auto;
+
+}
+.navbar-list-item{
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.navbar-list-item .item{
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+}
+/* end navbar */
+/*hedar start*/
+.hedar{
+    background-position: 0px 0px;
+}
+/*start headar-contect*/
+.headar-contect img{
+    width: 65%;
+}
+.headar-contect{
+    text-align: center;
+    padding-top: 15px ;
+}
+.headar-contect h1{
+    font-size :40px;
+margin-top: 20px;
+}
+.headar-contect p{
+    font-family: Dancing Script;
+    font-size: 35px;
+    font-weight: 400px;
+    color: white;
+    margin-top: 30px;
+}
+/* end hedar-contect */
+/* end hedar */
+/* start about div */
+.about .container{
+    padding-bottom: 30px;
+    padding-top: 20px;
+    padding-left: 0px;
+}
+.about-img{
+    width: 100%;
+    float: none;
+}
+.about-text{
+    
+    width: 100%;
+    float: none;
+    margin-top: 105px;
+    
+}
+.about-img img{
+    margin-right: 90px;
+    width: 100%;
+}
+.main-titel{
+    font-size: 30px;
+    padding-bottom: 15px;
+}
+.about-list-item{
+    list-style: none;
+    
+}
+.about-list-item p{
+    display: inline-block;
+    line-height: 0px;
+    font-size: 15px;
+}
+.about-list{
+    margin-top: 30px;
+}
+.about-list-item i{
+    font-size: 20px;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+
+}
+/*  end about div */
+/* start Reviewers div */
+
+.Reviewers-description{
+    width: 100%;
+    float: none;
+}
+
+.Reviewers p{
+    font-size: 14px;    
+}
+.Reviewers-img{
+    padding-top: 40px;
+    float: none;
+    width: 100%;
+    margin-left: 0px;
+}
+.Reviewers-list-item p{
+    padding-left: 5px;
+}
+/* end Reviewers div */
+ }

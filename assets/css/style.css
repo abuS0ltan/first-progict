@@ -1,0 +1,493 @@
+/*general*/
+@font-face{
+    font-family: 'AlegreyaSans';
+    src: url(../fonts/AlegreyaSans-Black.ttf);
+
+}
+@font-face{
+    font-family:'Dancing Script';
+    src: url(../fonts/Dancing_Script/DancingScript-VariableFont_wght.ttf)
+
+}
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    font-weight: 400;
+    font-family: 'Alegreya Sans', sans-serif;
+}
+.container{
+    width: 80%;
+    margin: auto;
+
+}
+/*end general*/
+/* start options */
+.opthions{
+    position: fixed;
+    top: 30%;
+    right: 0px;
+    background-color: whitesmoke;
+    width: 42px;
+    height: 86px;
+    font-size: 22px;
+    text-align: center;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px  ;
+    z-index: 9;
+}
+.opthions li{
+    list-style: none;
+}
+
+.opthions i{
+    color: rgb(102, 102, 102);
+    cursor: pointer;
+    line-height: 36px;
+    padding-top: 5px;
+}
+.opthions .item i:hover{
+    color: #0275d8;
+    transition: .5s;
+}
+/* end options */
+/*hedar start*/
+.hedar{
+    background-image: url('../img/shutterstock_277750193.jpg');
+    height: 100vh;
+    background-size: cover;
+    background-position: 0px -15px;
+
+}
+.hedar .overlay{
+    background-color: rgb(0, 0, 0, .1);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
+/*start headar-contect*/
+.headar-contect{
+    text-align: center;
+    padding-top: 15px ;
+}
+.headar-contect h1{
+    font-family: 'Alegreya', serif;
+    font-size :76px;
+font-weight :400;
+color: white;
+margin-top: 30px;
+}
+.headar-contect p{
+    font-family: Dancing Script;
+    font-size: 40px;
+    font-weight: 400px;
+    color: white;
+    margin-top: 30px;
+}
+.headar-contect button{
+    padding: 21px;
+    margin-left: 7px;
+    margin-top: 30px;
+    border-radius: 10%;
+    border-style: none;
+    cursor: pointer;
+}
+.learn{
+    color: white;
+    background-color: rgb(193, 171, 132);
+}
+.learn:hover{
+    color: black;
+    background-color: white;
+    transition: .5s;
+}
+.visit:hover{
+    background-color: #cacaca;
+    transition: .5s;
+}
+/* end hedar-contect */
+/* start navbar */
+.navbar{
+    position: sticky;
+    top: 0;
+    left: 0;
+}
+.navbar-logo{
+    float: left;
+    width: 57%;
+    position: relative;
+}
+.navbar .restaurant-logo{
+    width: 139.762px;
+    margin-top: 27px;
+    position: relative;
+    left: 158px;
+    top: -13px;
+}
+.navbar-list{
+    float: left;
+    margin: auto;
+}
+.navbar-list-item{
+    display: inline-block;
+    list-style: none;
+    margin-top: 35px;
+    margin-left: 30px;
+}
+.navbar-list-item .item{
+    font-size: 20px;
+    font-weight: 400;
+    text-decoration: none;
+    color: white;
+    text-transform: capitalize;
+}
+.navbar-list-item .item:hover{
+    color: #e2785d;
+    transition: .5s;
+}
+/* end navbar */
+/* end hedar */
+/* start about div */
+.about .container{
+    padding-top: 90px;
+    padding-left: 50px;
+}
+.about-img{
+    width: 50%;
+    float: left;
+}
+.about-text{
+    width: 50%;
+    float: left;
+    margin-top: 105px;
+
+}
+.clrfix{
+    clear: both;
+}
+.main-titel{
+    font-size: 36px;
+    padding-bottom: 15px;
+    color: rgb(37, 48, 72);
+}
+.sub-titel{
+    font-size: 28px;
+    font-family:'Dancing Script';
+    padding-bottom: 15px;
+    color: rgb(193, 171, 132);
+}
+.about-text p{
+    font-size: 18px;
+    color: rgb(104, 104, 104);
+    line-height: 33.48px;
+}
+.about-list-item{
+    list-style: none;
+}
+.about-list-item p{
+    display: inline-block;
+    line-height: 0px;
+}
+.about-list{
+    margin-top: 30px;
+}
+.about-list-item i{
+    font-size: 24px;
+
+    background-color: rgb(193, 171, 132);
+    color: rgb(255, 255, 255);
+    width: 52px;
+    height: 52px;
+    line-height: 52px;
+    border-radius: 100%;
+    margin-right: 10px;
+    margin-bottom: 16px;
+    text-align: center;
+}
+/* end about div */
+/* start Reviewers div */
+.Reviewers{
+    padding-top: 120px;
+    padding-bottom: 120px;
+    background-color: #f8f8f8;
+}
+.Reviewers-description{
+    width: 49%;
+    float: left;
+}
+.Reviewers-main-titel{
+    color: rgb(37, 48, 72);
+    font-size: 36px;
+    line-height: 50px;
+    margin-bottom: 10px;
+}
+.Reviewers-sub-titel{
+    color: rgb(193, 171, 132);
+    font-family:'Dancing Script';
+    font-size: 28px;
+    line-height: 38.64px;
+    margin-bottom: 50px;
+}
+.Reviewers p{
+    font-size: 18px;
+    color: rgb(104, 104, 104);
+    line-height: 40px;
+    display: inline-block;
+    font-weight: 100;
+}
+.Reviewers-img{
+    float: right;
+    width: 45%;
+    margin-left: 40px;
+}
+.Reviewers-img img{
+    width: 100%;
+}
+.Reviewers-list{
+    margin-top: 30px;
+}
+.Reviewers-list-item{
+    list-style: none;
+}
+.Reviewers-list-item i{
+    color: rgb(193, 171, 132);
+    font-size: 18px;
+
+}
+.Reviewers-list-item p{
+    padding-left: 10px;
+}
+/* end Reviewers div */
+/* start cover-img div */
+.cover-img{
+    background-image: url('../img/shutterstock_28036972111.jpg');
+    padding-top: 520px ;
+    background-attachment: fixed;
+}
+/* end cover-img */
+/* start dishes div */
+.dishes{
+    text-align: center;
+    padding-top: 80px;
+}
+.dishes-menu{
+    margin-bottom: 40px;
+}
+.dishe{
+    width: 30%;
+    float: left;
+    margin-left: 30px;
+    margin-bottom: 50px;
+}
+.dishe img{
+    width: 100%;
+    height: 300px;
+}
+.dishe h4{
+    font-size: 22px;
+    color: rgb(37, 48, 72);
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.dishe p{
+    font-size: 17px;
+    line-height: 28px;
+    padding-bottom: 10px;
+    color: rgb(104, 104, 104);
+}
+.dishes .view{
+    background-color: rgb(193, 171, 132);
+    color: white;
+    text-decoration: none;
+    width: 100px;
+    height: 24;
+    padding-left: 21px;
+    padding-right: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 3px;
+    font-weight: 600;
+}
+.dishes .view i{
+    display: none;
+}
+.dishes .view:hover i{
+    display: inline-block;
+    transition: .5s;
+}
+/* end dishes div */
+/* start where div */
+.where{
+    margin-top: 200px;
+    margin-bottom: 100px;
+}
+.where-description{
+    width: 50%;
+    float: left;
+    padding-right: 50px;
+}
+.details{
+    font-size: 16px;
+    color: rgb(104, 104, 104);
+    padding-top: 50px;
+}
+.where-list-item{
+    list-style: none;
+}
+.where-list-item span{
+    color: rgb(104, 104, 104);
+}
+.where-list{
+    margin-top: 30px;
+}
+.where-list-item i{
+    font-size: 24px;
+
+    background-color: rgb(193, 171, 132);
+    color: rgb(255, 255, 255);
+    width: 52px;
+    height: 52px;
+    line-height: 52px;
+    border-radius: 100%;
+    margin-right: 10px;
+    margin-bottom: 16px;
+    text-align: center;
+}
+.where p{
+    font-size: 16px;
+    color: rgb(104, 104, 104);
+    line-height: 40px;
+    display: inline-block;
+    font-weight: 100;
+}
+.map {
+    width: 43%;
+    float: left;
+    height: 100%;
+}
+.map iframe{
+    width: 100%;
+    height: 550px;
+}
+/* end where */
+/* start footer */
+.first-footer{
+    background-color: #403d38;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+.footer-item{
+    width: 22%;
+    float: left;
+    padding-left:17px ;
+    padding-right: 17px;
+}
+.footer-item h2{
+    font-size: 20px;
+    color: #fff;
+    margin-bottom: 25px;
+}
+.footer-item p{
+    font-size: 14px;
+    line-height: 30px;
+    margin-bottom: 20px;
+    color: rgb(150, 150, 150);
+}
+.footer-item li{
+    list-style: none;
+    border-bottom: 1px solid rgba(255,255,255,0.05);
+    padding-bottom: 7px;
+    margin-bottom: 6px;
+}
+.footer-item a{
+    text-decoration: none;
+    color: rgb(150, 150, 150);
+    font-size: 16px;
+    line-height: 33px;
+}
+.footer-item a:hover{
+    color: #E0E0E0;
+    transition: .3s;
+}
+.footer-item i{
+     color: rgb(150, 150, 150);
+     padding-right: 7px;
+
+}
+ .Links a::before, .Hours span::before{
+    content: "\f101";
+    font-family: FontAwesome;
+    padding-right: 8px;
+}
+.footer-item span{
+    font-size: 14px;
+    line-height: 33px;
+    color: rgb(150, 150, 150);
+}
+.footer-item .final{
+    border-width: 0px;
+}
+.secound-footer{
+    background-color: #353330;
+    text-align: center;
+    padding-top: 70px;
+    padding-bottom: 60px;
+}
+.secound-footer img{
+    padding-bottom: 30px;
+}
+.secound-footer p{
+    font-size: 18px;
+    line-height: 34px;
+    color: rgb(119, 119, 119);
+}
+.secound-footer .links{
+    margin-top: 20px;
+}
+.secound-footer a{
+    display: inline-block;
+    background-color:rgb(71, 69, 66);
+    height: 60px;
+    width: 60px;
+    line-height: 60px;
+    border-radius: 100% ;
+    margin-right: 8px;
+    font-size: 24px;
+    color: rgb(140, 138, 134);
+}
+.twitter:hover{
+    background-color: #00aced;
+    transition: .3s;
+    color: #fff;
+
+}
+.instagram:hover{
+    background-color: #125688 ;
+    transition: .3s;
+    color: #fff;
+}
+.facebook:hover{
+    background-color: #3b5998 ;
+    transition: .3s;
+    color: #fff;
+}
+.tumblr:hover{
+    background-color: #32506d ;
+    transition: .3s;
+    color: #fff;
+}
+
+/* // Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... } */
